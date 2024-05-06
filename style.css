@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Jaini Purva", system-ui;
+}
+
+body {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    border: 5px solid black;
+    padding: 45px;
+
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+#gameplay {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    height: 10em;
+}
+
+button {
+    border-radius: 9px;
+    height: 60%;
+    width: 30%;
+}
+
+i {
+    padding-top: 2%;
+    scale: 2;
+}
+
+main {
+    margin: 3em;
+}
+
+footer {
+    position: absolute;
+    bottom: 1em;
+    width: 100%;
+    color: white;
+    background-color: black;
+    padding: 1.5rem;
+}
